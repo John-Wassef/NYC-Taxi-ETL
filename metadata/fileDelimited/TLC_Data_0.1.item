@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_mvdTEf4LEe-yJa3PdewpKA" name="TLC_Data" dataPackage="_mvdTEv4LEe-yJa3PdewpKA" Server="Localhost 127.0.0.1" FilePath="D:/Programing/Notebooks VS Code/TLC Data/yellow_tripdata_2024.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_mvdTEv4LEe-yJa3PdewpKA" name="default" dataManager="_mvdTEf4LEe-yJa3PdewpKA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mvdTE_4LEe-yJa3PdewpKA" id="_dW62YP4LEe-yJa3PdewpKA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTFP4LEe-yJa3PdewpKA" label="VendorID" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTFf4LEe-yJa3PdewpKA" label="tpep_pickup_datetime" length="19" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTFv4LEe-yJa3PdewpKA" label="tpep_dropoff_datetime" length="19" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTF_4LEe-yJa3PdewpKA" label="passenger_count" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTGP4LEe-yJa3PdewpKA" label="trip_distance" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTGf4LEe-yJa3PdewpKA" label="RatecodeID" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTGv4LEe-yJa3PdewpKA" label="store_and_fwd_flag" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTG_4LEe-yJa3PdewpKA" label="PULocationID" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTHP4LEe-yJa3PdewpKA" label="DOLocationID" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTHf4LEe-yJa3PdewpKA" label="payment_type" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTHv4LEe-yJa3PdewpKA" label="fare_amount" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTH_4LEe-yJa3PdewpKA" label="extra" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTIP4LEe-yJa3PdewpKA" label="mta_tax" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTIf4LEe-yJa3PdewpKA" label="tip_amount" length="5" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTIv4LEe-yJa3PdewpKA" label="tolls_amount" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTI_4LEe-yJa3PdewpKA" label="improvement_surcharge" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTJP4LEe-yJa3PdewpKA" label="total_amount" length="6" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTJf4LEe-yJa3PdewpKA" label="congestion_surcharge" length="3" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mvdTJv4LEe-yJa3PdewpKA" label="Airport_fee" length="4" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

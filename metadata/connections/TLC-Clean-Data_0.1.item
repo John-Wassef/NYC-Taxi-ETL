@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_KDBKAP9OEe-mqcvGo0RxAw" name="TLC-Clean-Data" id="_NsZWYP9MEe-mqcvGo0RxAw" label="TLC-Clean-Data" dataPackage="_KKkjgP9OEe-mqcvGo0RxAw" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/TLC Clean Data?postgres" dbVersionString="V9_X" Port="5432" Username="postgres" Password="enc:system.encryption.key.v1:tTLtHwvkIBEsbWdHQxiD3+ESsKSyrZBg6/rhg4RHOo5moDUl" ServerName="localhost" DatasourceName="" FileFieldName="" SID="TLC Clean Data" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="postgres" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_KDH3sP9OEe-mqcvGo0RxAw" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_KG6ykP9OEe-mqcvGo0RxAw" tag="package filter" value=""/>
+    <taggedValue xmi:id="_KHCuYP9OEe-mqcvGo0RxAw" tag="Status" value=""/>
+    <taggedValue xmi:id="_KHCuYf9OEe-mqcvGo0RxAw" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_KHCuYv9OEe-mqcvGo0RxAw" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_KHCuY_9OEe-mqcvGo0RxAw" tag="Description" value=""/>
+    <taggedValue xmi:id="_KHCuZP9OEe-mqcvGo0RxAw" tag="Author" value=""/>
+    <taggedValue xmi:id="_KHCuZf9OEe-mqcvGo0RxAw" tag="otherParameter"/>
+    <taggedValue xmi:id="_KIOaIP9OEe-mqcvGo0RxAw" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_KIOaIf9OEe-mqcvGo0RxAw" tag="DB ProductVersion" value="17.4"/>
+    <taggedValue xmi:id="_KIOaIv9OEe-mqcvGo0RxAw" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_KDIewP9OEe-mqcvGo0RxAw" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_KKkjgP9OEe-mqcvGo0RxAw" name="TLC Clean Data" dataManager="_KDBKAP9OEe-mqcvGo0RxAw">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_KKmYsP9OEe-mqcvGo0RxAw" name="information_schema"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_KKmYsf9OEe-mqcvGo0RxAw" name="pg_catalog"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_KKmYsv9OEe-mqcvGo0RxAw" name="public"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

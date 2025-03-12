@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_v-2toPNREe-k2MNQjBlKkg" label="TLC_Trip_Record_Data_Task" description="" language="java" technicalLabel="TLC_TRIP_RECORD_DATA_TASK" local="true" author="_v-2tofNREe-k2MNQjBlKkg" productVersion="Talend Open Studio for Data Integration-7.3.1.20200219_1130" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_wFT68PNREe-k2MNQjBlKkg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_v-2tofNREe-k2MNQjBlKkg" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

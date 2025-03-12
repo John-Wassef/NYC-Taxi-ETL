@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_5ZPTMP5vEe-e_emEHMoekQ" name="zone_lookup" dataPackage="_5ZPTMf5vEe-e_emEHMoekQ" Server="Localhost 127.0.0.1" FilePath="D:/Programing/Notebooks VS Code/TLC Data/taxi_zone_lookup.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" EscapeChar="&quot;'&quot;" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_5ZPTMf5vEe-e_emEHMoekQ" name="default" dataManager="_5ZPTMP5vEe-e_emEHMoekQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5ZPTMv5vEe-e_emEHMoekQ" id="_jT6a0P5vEe-e_emEHMoekQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5ZPTM_5vEe-e_emEHMoekQ" label="LocationID" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5ZPTNP5vEe-e_emEHMoekQ" label="Borough" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5ZPTNf5vEe-e_emEHMoekQ" label="Zone" length="35" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5ZPTNv5vEe-e_emEHMoekQ" label="service_zone" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
